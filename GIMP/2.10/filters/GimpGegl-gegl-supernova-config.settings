@@ -1,0 +1,13 @@
+# settings
+
+(GimpGegl-gegl-supernova-config "2021-07-07 12:06:12"
+    (time 1625634372)
+    (center-x 0.055)
+    (center-y 0.114)
+    (radius 50)
+    (spokes-count 1)
+    (random-hue 0)
+    (color (color-rgba 1 0.50196078431372548 0 1))
+    (seed 0))
+
+# end of settings

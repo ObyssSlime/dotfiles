@@ -1,0 +1,38 @@
+q
+add someoneLikeYouu.mp3
+clear
+add someoneLikeYou.mp3
+clear 
+add Music/selimutTetangga.mp3
+add Music/
+c
+quit
+add Downloads/tes/
+set altformat_current
+altformat
+format_title
+add /home/ade/Downloads/tes/
+clear -p
+add -p Music/ST12-saat_terakhir.mp3
+add -p Music/wali-mamas.mp3
+add Music/wali-mamas.mp3 -p
+colorscheme default
+wq
+colorscheme dracula
+colorscheme green-mono-88
+colorscheme jellybeans
+colorscheme gruvbox-alt
+colorscheme gruvbox
+colorscheme green
+colorscheme cyan
+colorscheme gray-88
+colorscheme  syan
+colorscheme amazon
+colorscheme zenburn
+colorscheme solarized-dark
+colorscheme solarized-light
+colorscheme night
+colorscheme 
+stop
+Q
+a

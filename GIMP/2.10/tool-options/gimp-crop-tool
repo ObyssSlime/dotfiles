@@ -1,0 +1,8 @@
+# GIMP gimp-crop-tool options
+
+(aspect-denominator 1080)
+(aspect-numerator 1920)
+(foreground (color-rgb 0.15384615384615385 0.11357769747031493 0.11357769747031493))
+(pattern "Pine")
+
+# end of gimp-crop-tool options
