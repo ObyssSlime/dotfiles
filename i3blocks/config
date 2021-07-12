@@ -10,13 +10,33 @@
 separator=true
 separator_block_width=15
 
+[cmus]
+color=#ffd500
+command=bash /home/ade/.config/scripts/cmus.sh
+interval=1
+
+[volume]
+color=#ffea00
+command=bash /home/ade/.config/scripts/volume.sh
+interval=1
+
+[brightness]
+color=#ffff00
+command=bash /home/ade/.config/scripts/brightness.sh
+interval=1
+
+[wireless]
+color=#eaff00
+command=bash /home/ade/.config/scripts/wireless.sh
+interval=1
+
 [date]
-color=#ffffff
-command=bash /home/ade/.config/script/date.sh
+color=#d5ff00
+command=bash /home/ade/.config/scripts/date.sh
 interval=1
 
 [time]
-color=#ffffff
-command=bash /home/ade/.config/script/time.sh
+color=#bfff00
+command=bash /home/ade/.config/scripts/time.sh
 interval=1
 

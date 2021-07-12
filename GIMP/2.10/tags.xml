@@ -1177,7 +1177,7 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="fb15be6f58a1c0ebfb7a1aeba9dcb942">
+  <resource identifier="gimp-palette-color-history" checksum="147434f53a9b2eb1e8261f981270ddab">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Bears.gpl" checksum="e82e818c20ac12bdd21049924ea2d1e7">
@@ -1604,6 +1604,9 @@
   </resource>
 
   <resource identifier="Monospace Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="mtx" checksum="(null)">
   </resource>
 
   <resource identifier="Nimbus Mono PS" checksum="(null)">
