@@ -230,7 +230,10 @@ exec --no-startup-id unclutter
 exec --no-startup-id xinput disable 14
 
 # running cmus
-exec --no-startup-id /bin/cmus
+exec --no-startup-id cmus
 
 # running nmcli-ad
 bindsym Control+Shift+w exec alacritty -e bash .config/scripts/nmcli-adRofi.sh
+
+# running dunst
+exec --no-startup-id /usr/bin/dunst
