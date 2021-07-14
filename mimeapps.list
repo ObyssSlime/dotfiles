@@ -1,3 +1,7 @@
 [Added Associations]
 application/vnd.ms-powerpoint=firefox.desktop;
 image/jpeg=viewnior.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-VGQG60.desktop;
+
+[Default Applications]
+x-scheme-handler/tg=userapp-Telegram Desktop-VGQG60.desktop

@@ -53,6 +53,15 @@ bindsym $mod+F6 exec sudo xbacklight -inc 1
 # Use Thunar
 bindsym $mod+t exec --no-startup-id thunar
 
+# Use XinputRofi
+bindsym Control+Shift+t exec bash .config/scripts/xinputRofi.sh
+
+# Use Power
+bindsym Control+Shift+p exec bash .config/scripts/powerRofi.sh
+
+# Use CmusRofi
+bindsym Control+Shift+s exec bash .config/scripts/cmusRofi.sh
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -214,8 +223,14 @@ exec --no-startup-id feh --bg-center /home/ade/Images/wallpaper/kaligrafi.png
 # running tint2 for panel
 # exec --no-startup-id tint2 -c .config/tint2/kurumi.conf
 
+# running unclutter
+exec --no-startup-id unclutter
+
+# running xinput
+exec --no-startup-id xinput disable 14
+
 # running cmus
-exec --no-startup-id cmus
+exec --no-startup-id /bin/cmus
 
 # running nmcli-ad
-bindsym Control+Shift+w exec alacritty -e bash .config/scripts/nmcli-ad.sh
+bindsym Control+Shift+w exec alacritty -e bash .config/scripts/nmcli-adRofi.sh

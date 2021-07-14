@@ -1,35 +1,23 @@
-p="shutdown"
-u="cmus pause"
-s="cmus stop"
-n="cmus next"
-v="cmus previous"
-r="cmus repeat"
-f="cmus shuffle"
-options="$p\n$u\n$s\n$n\n$v\n$r\n$f"
+p="Play Cmus"
+s="Stop Cmus"
+n="Next Cmus Song"
+r="Previous Cmus Song"
+options="$p\n$s\n$n\n$r"
 
 ex="$(echo -e $options | rofi -dmenu)"
 
 case $ex in
 	$p)
-		shutdown now
-	;;
-	$u)
-		cmus-remote -u
+		cmus-remote -l -p
 	;;
 	$s)
-		cmus-remote -s
+		cmus-remote -l -s
 	;;
 	$n)
-		cmus-remote -n
-	;;
-	$v)
-		cmus-remote -r
+		cmus-remote -l -n
 	;;
 	$r)
-		cmus-remote -R
-	;;
-	$f)
-		cmus-remote -S
+		cmus-remote -l -r
 	;;
 esac
 

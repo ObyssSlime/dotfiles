@@ -1,1 +1,1 @@
-/home/ade/Music/matiMasukSurga.mp3
+/home/ade/Music/aishiteru2.mp3
